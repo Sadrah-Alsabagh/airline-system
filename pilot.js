@@ -8,11 +8,11 @@ events.on('new-flight',handleNewFlight);
 
 function handleNewFlight(info){
     setInterval(()=> {
-        console.log(`Pilot: flight with ID'${info.flightID}' took-off `);
-        events.emit('took-off',info);},4000);
-        setInterval(() => {
-        console.log(`Pilot: flight with ID'${info.flightID}'arrived`);
-        events.emit('arrived',info);
+    console.log(`Pilot: flight with ID'${info.flightID}' took-off `);
+    events.emit('took-off',info);},4000);
+    setInterval(() => {
+    console.log(`Pilot: flight with ID'${info.flightID}'arrived`);
+    events.emit('arrived',info);
     },7000 );}
 
 
