@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/Sadrah-Alsabagh/airline-system#readme",
   "dependencies": {
-    "@ngneat/falso": "^6.1.0"
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
   }
 }
