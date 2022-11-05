@@ -1,7 +1,7 @@
 {
   "name": "airline-system",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is the UML daigram of the airline system: <img src=\"lab-19.png\"      alt=\"UML\"/>",
   "main": "events.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Sadrah-Alsabagh/airline-system#readme",
   "dependencies": {
+    "socket.io": "^4.5.3",
+    "socket.io-client": "^4.5.3",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
